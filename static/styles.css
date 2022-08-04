@@ -1,0 +1,59 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+.center
+{
+    text-align: center;
+}
+
+#message
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #537fbe;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.message
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #537fbe;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+#signHoroscope
+{
+    font-weight: bold;
+    color: #ea433b;
+}
