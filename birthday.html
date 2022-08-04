@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+
+
+<div class="message">
+    <h1>If you were born on {{ birth }} then</h1>
+</div>
+
+<div class="text-center">
+    <div class="row row-cols-1 row-cols-md-4 g-5">
+
+        <div class="col">
+            <div class="h-100">
+                <img src="/static/chinese.jpg" class="img-top" alt="Chinese">
+                <div class="body">
+                <h5 class="card-title">by Chinese Zodiac</h5>
+                <p class="card-title">you are <span id="signHoroscope">{{ animal }}</p>
+                <a href="{{ link_animal }}" target="_blank" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col">
+            <div class="h-100">
+                <img src="/static/zodiac.jpg" class="img-top" alt="Zodiac">
+                <div class="body">
+                <h5 class="card-title">by Astrology Zodiac</h5>
+                <p class="card-title">you are <span id="signHoroscope">{{ zodiak }}</p>
+                <a href="https://www.horoscope.com/zodiac-signs/{{ link_zodiak }}" target="_blank" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="h-100">
+                <img src="/static/druid.jpg" class="img-top" alt="Druid">
+                <div class="body">
+                <h5 class="card-title">by Druid Horoscope</h5>
+                <p class="card-title">you are <span id="signHoroscope">{{ druid }}</p>
+                <a href="https://astrologyk.com/horoscope/druid/{{ link_druid }}" target="_blank" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="h-100">
+                <img src="/static/egypt.jpg" class="img-top" alt="Egypt">
+                <div class="body">
+                <h5 class="card-title">by Traditional Egyptian</h5>
+                <p class="card-title">you are <span id="signHoroscope">{{ egypt }}</p>
+                <a href="https://trusted-astrology.com/egyptian-zodiac-signs/" target="_blank" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+  </div>
+</div>
+
+
+{% endblock %}
